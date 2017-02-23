@@ -57,12 +57,21 @@
             </div>
         </a>
         
+        <?php if (!$logged ) { ?>
 
-        <ul class="account-controlls nav-link-style">
-            <li class=""><a class="" href="index.php?route=account/login">Iniciar sesión</a></li>
-            <li class=""><a class="" href="index.php?route=account/register">Crear cuenta</a></li>
-            <li class="search js-toggle-search"><i class="fa fa-search" aria-hidden="true"></i></li>
-        </ul>
+            <ul class="account-controlls nav-link-style">
+                <li class=""><a class="" href="index.php?route=account/login">Iniciar sesión</a></li>
+                <li class=""><a class="" href="index.php?route=account/register">Crear cuenta</a></li>
+                <li class="search js-toggle-search"><i class="fa fa-search" aria-hidden="true"></i></li>
+            </ul>
+        <?php } else { ?>
+            <ul class="account-controlls nav-link-style">
+
+                <li class=""><a class="" href="index.php?route=account/account">Ver cuenta</a></li>
+                <li class=""><a class="" href="index.php?route=account/logout">Cerrar sesión</a></li>
+                <li class="search js-toggle-search"><i class="fa fa-search" aria-hidden="true"></i></li>
+            </ul>
+        <?php } ?>
 
         <ul class="main-nav nav-link-style nav-link-style--bold" id="AccessibleNav">
 
@@ -130,7 +139,7 @@
                         <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=67">+ 2 Horas</a></li>
                         <li><a class="site-nav__link" href="?route=information/sports">Deportes</a></li>
                         <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=33">Correr</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=69">Triatlon</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=25">Triatlon</a></li>
                         <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=70">Ciclismo</a></li>
                         <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=71">MTB</a></li>
                         <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=72">Crossfit</a></li>

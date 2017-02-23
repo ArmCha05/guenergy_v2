@@ -99,10 +99,9 @@
       
       <?php } ?>
       
-      <p class="">Shipping &amp; taxes calculated at checkout</p>
 
 
-      <p class="cart__taxes" ><strong>Fecha estimada de entrega : <?php echo strftime("%b/%d/%Y"); ?><span id="js-ship-date"></span></strong><br />All orders require 48 hours for processing. <br /> Transit times are determined by shipping method. If your order is time sensitive, please contact our Customer Service team at (1-800-400-1995, option 4)</p>
+      <p class="cart__taxes" ><strong>Fecha estimada de entrega : <?php echo strftime("%b/%d/%Y"); ?><span id="js-ship-date"></span></strong><br />Todas las ordenes requieren 48 horas para ser procesadas. <br /> Si tu orden es urgente, porfavor contactáctanos al equipo de Servicio al Cliente (1-800-400-1995, option 4)</p>
       <div class="clear"></div>
       
       <a href="<?php echo $checkout; ?>">

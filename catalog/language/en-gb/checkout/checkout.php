@@ -5,7 +5,7 @@ $_['heading_title']                  = 'Realizar compra';
 // Text
 $_['text_cart']                      = 'Shopping Cart';
 $_['text_checkout_option']           = 'Paso %s: Checkout Options';
-$_['text_checkout_account']          = 'Paso %s: Account &amp; Billing Details';
+$_['text_checkout_account']          = 'Paso 1: Detalles de compra';
 $_['text_checkout_payment_address']  = 'Paso 1: Detalles de compra';
 $_['text_checkout_shipping_address'] = 'Paso 2: Detalles de entrega';
 $_['text_checkout_shipping_method']  = 'Paso 3: Método de entrega';

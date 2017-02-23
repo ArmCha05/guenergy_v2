@@ -23,7 +23,7 @@ class ControllerCommonHeader extends Controller {
 		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
 			$this->document->addLink($server . 'image/' . $this->config->get('config_icon'), 'icon');
 		}
-
+		
 		$data['title'] = $this->document->getTitle();
 
 		$data['base'] = $server;

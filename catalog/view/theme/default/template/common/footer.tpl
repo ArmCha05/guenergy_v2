@@ -50,6 +50,7 @@
                         <ul class="menu">
                             <li><a href="/careers/">Carreras</a></li>
                             <li><a href="/marketing-assets/">Activos de marketing</a></li>
+                            <li><a href="index.php?route=blog/blog">Blogs</a></li>
                             <!-- <li><a href="/dealers/">Dealer Locator</a></li> -->
                         </ul>
                     </div><!-- /col -->
