@@ -101,10 +101,10 @@
 
 
             <li class="main-nav--has-dropdown -mobile-only">
-              <a class="site-nav__link -half" href="https://shop.guenergy.com/account/register" >
+              <a class="site-nav__link -half" href="index.php?route=account/register" >
                 Cuenta
               </a>
-              <a class="site-nav__link -half" href="https://shop.guenergy.com/account/login">
+              <a class="site-nav__link -half" href="index.php?route=account/login">
                 Ingresar
               </a>
             </li>
@@ -134,16 +134,16 @@
                     <ul class="nav-list">
                         <li><h5><a href="?route=information/activity">Actividad</a></h5></li>
                         <li><a class="site-nav__link" href="?route=information/intensity">Intensidad</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=65">0-2 Horas Ligero</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=66">0-2 Horas Intenso</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=67">+ 2 Horas</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=62">0-2 Horas Ligero</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=63">0-2 Horas Intenso</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=64">+ 2 Horas</a></li>
                         <li><a class="site-nav__link" href="?route=information/sports">Deportes</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=33">Correr</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=25">Triatlon</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=70">Ciclismo</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=71">MTB</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=72">Crossfit</a></li>
-                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=73">Deportes de equipo</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=65">Correr</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=66">Triatlon</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=67">Ciclismo</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=68">MTB</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=69">Crossfit</a></li>
+                        <li><a class="site-nav__link site-nav__link__sub" href="/index.php?route=product/category&path=70">Deportes de equipo</a></li>
 
 
                     </ul>
@@ -169,20 +169,20 @@
                 <div class="col-xs-6 col-sm-3">
                     <ul class="nav-list">
                         <li><h5><a href="?route=information/diet">Dieta</a></h5></li>
-                        <li><a class="site-nav__link" href="/diet/caffeine/">Cafeina</a></li>
-                        <li><a class="site-nav__link" href="/diet/caffeine-free/">Sin Cafeína</a></li>
-                        <li><a class="site-nav__link" href="/diet/kosher/">Kosher</a></li>
-                        <li><a class="site-nav__link" href="/diet/vegan/">Vegano</a></li>
-                        <li><a class="site-nav__link" href="/diet/gluten-free/">Libre de Gluten</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=78">Cafeina</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=79">Sin Cafeína</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=80">Kosher</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=81">Vegano</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=82">Libre de Gluten</a></li>
                     </ul>
                 </div>
 
                 <div class="col-xs-6 col-sm-3">
                     <ul class="nav-list">
                         <li><h5><a href="?route=information/category">Categoría</a></h5></li>
-                        <li><a class="site-nav__link" href="/collections/energy/">Energía</a></li>
-                        <li><a class="site-nav__link" href="/collections/hydration/">Hidración</a></li>
-                        <li><a class="site-nav__link" href="/collections/recovery/">Recuperación</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=84">Energía</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=85">Hidración</a></li>
+                        <li><a class="site-nav__link" href="/index.php?route=product/category&path=86">Recuperación</a></li>
                     </ul>
                 </div>
 
@@ -350,7 +350,7 @@
         </div> <!-- drop 3 -->
     </div>
     <div class="search-form -desktop">
-        <form action="index.php?route=product/search&search" method="get">
+        <form action="index.php?route=product/search" method="post">
             <i class="fa fa-times js-toggle-search" aria-hidden="true"></i>
             <input class="search-text" type="text" name="search" id="search" value="" placeholder="search..."/>
             <input class="btn" type="submit" value="GO" />

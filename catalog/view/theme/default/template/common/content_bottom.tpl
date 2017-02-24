@@ -143,7 +143,7 @@
 	</div>
 
 	<p class="explore-all tac">
-		<a href="?route=pavblog/blogs"> Explore All <i class="tmbricons tmbricons-arrow-right"></i></a>
+		<a href="?route=blog/blog"> Explore All <i class="tmbricons tmbricons-arrow-right"></i></a>
 	</p>>
 
 </div>

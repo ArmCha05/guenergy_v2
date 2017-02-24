@@ -13385,6 +13385,21 @@ body.no-touch .wafel-prod .prod-wrap:hover {
 }
 .singlePhoto
 {
-    padding-top: 20px;
-    padding-bottom: 230;
+    padding-top: 100px;
+    padding-bottom: 330;
+    padding-right:150px;
+}
+
+.tamCarousel{
+    width: 300px;
+}
+
+.tittleAlign
+{
+    padding-bottom: 100px;
+}
+
+.tamImageIndex
+{
+    background-size: 290px;
 }

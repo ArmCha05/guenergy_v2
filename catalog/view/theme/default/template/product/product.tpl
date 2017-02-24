@@ -2,17 +2,18 @@
 
 
 
-<head>
-  <link href="//cdn.shopify.com/s/files/1/1126/5680/t/5/assets/theme.scss.css?15371127818496078502" rel="stylesheet" type="text/css" media="all" />
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
 
- 
-  <script src="//cdn.shopify.com/s/assets/themes_support/api.jquery-b90ee9a5604bc68b2f4a3af86b4551207834575e264152eac4822d0b60e0c0d5.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="//cdn.shopify.com/s/files/1/1126/5680/t/5/assets/theme.scss.css?15371127818496078502" rel="stylesheet" type="text/css" media="all" />
 
 
-</head>
+<script src="//cdn.shopify.com/s/assets/themes_support/api.jquery-b90ee9a5604bc68b2f4a3af86b4551207834575e264152eac4822d0b60e0c0d5.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
 
 <?php echo $header; ?>
 
@@ -46,16 +47,16 @@
                   </div>
                 <?php } ?>
 
-                <a href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" class="colorbox">
-                <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" id="image"  data-zoom-image="<?php echo $popup; ?>" class="product-image-zoom"/></a>
+                
+                <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" id="image"  data-zoom-image="<?php echo $popup; ?>" class="product-image-zoom"/>
             
             <?php } ?>
 
           </div>
         </div>
         
-          <div class="photos__item photos__item--thumbs">
-            <div class="" id="ProductThumbs">
+          <div class="photos__item photos__item--thumbs ">
+            <div class="tamCarousel" id="ProductThumbs">
                 
                
                <?php if ($images) { ?>
@@ -68,11 +69,10 @@
                                       $icols = 4; $i= 0;
                    foreach ($images as  $image) { ?>
                      <?php if( (++$i)%$icols == 1 ) { ?>
-                     <div class="item">
+                     <div class="item " >
                        <?php } ?>
-                           <a href="<?php echo $image['popup']; ?>" title="<?php echo $heading_title; ?>" class="colorbox" data-zoom-image="<?php echo $image['popup']; ?>" data-image="<?php echo $image['popup']; ?>">
-                             <img src="<?php echo $image['thumb']; ?>"   title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" data-zoom-image="<?php echo $image['popup']; ?>" class="product-image-zoom" />
-                           </a>
+                           
+                          <img src="<?php echo $image['thumb']; ?>"   title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" data-zoom-image="<?php echo $image['popup']; ?>" class="product-image-zoom" />
                          <?php if( $i%$icols == 0 || $i==count($images) ) { ?>
                      </div>
                      <?php } ?>
@@ -83,7 +83,6 @@
                </div>
                  <script type="text/javascript">
                    $('#image-additional .item:first').addClass('active');
-                   $('#image-additional').carousel({interval:false})
                  </script>
 
                <?php } ?>    
@@ -299,7 +298,13 @@
 
 
 
+<script type="text/javascript">
+  $('.product-image-zoom').click(function(){
+    var newSrc = $(this).attr('src');
 
+    $('#image').attr('src',newSrc);
+  });
+</script>
 
 
 <script type="text/javascript"><!--
@@ -366,7 +371,6 @@ $('#button-cart').bind('click', function() {
 });
 //--></script>
 <?php if ($options) { ?>
-<script type="text/javascript" src="catalog/view/javascript/jquery/ajaxupload.js"></script>
 <?php foreach ($options as $option) { ?>
 <?php if ($option['type'] == 'file') { ?>
 <script type="text/javascript"><!--
