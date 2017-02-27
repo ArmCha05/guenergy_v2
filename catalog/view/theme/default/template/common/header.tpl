@@ -75,32 +75,38 @@
 
         <ul class="main-nav nav-link-style nav-link-style--bold" id="AccessibleNav">
 
-            <li class="main-nav--has-dropdown">
+            <li class="main-nav--has-dropdown ">
               <a class="site-nav__link site-nav__link__dropdown" href="https://shop.guenergy.com/collections/all" data-target="shop-drop">
                 TIENDA
               </a>
             </li>
 
-            <li class="main-nav--has-dropdown">
+            <li class="main-nav--has-dropdown ">
               <a class="site-nav__link site-nav__link__dropdown" href="/nutrition-plan/" data-target="plan-drop">
                 PLAN
               </a>
             </li>
 
-            <li class="main-nav--has-dropdown">
+            <li class="main-nav--has-dropdown ">
               <a class="site-nav__link site-nav__link__dropdown" href="?route=pavblog/blogs" data-target="lab-drop">
                 APRENDER    
               </a>
             </li>
 
-            <li >
+            <li>
+              <a  href="index.php?route=information/atletas" data-target="shop-drop">
+                ATLETAS
+              </a>
+            </li>
+
+            <li class="alinearHeader">
               <a  href="index.php?route=information/distribuidores" data-target="shop-drop">
                 DISTRIBUIDORES
               </a>
             </li>
 
 
-            <li class="main-nav--has-dropdown -mobile-only">
+            <li class="main-nav--has-dropdown -mobile-only ">
               <a class="site-nav__link -half" href="index.php?route=account/register" >
                 Cuenta
               </a>

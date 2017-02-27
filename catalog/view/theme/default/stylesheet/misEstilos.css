@@ -13403,3 +13403,8 @@ body.no-touch .wafel-prod .prod-wrap:hover {
 {
     background-size: 290px;
 }
+
+.alinearHeader
+{
+    padding-right: 100px;
+}

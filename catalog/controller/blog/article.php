@@ -105,7 +105,6 @@ class ControllerBlogArticle extends Controller {
 			$this->document->setDescription($article_info['meta_description']);
 			$this->document->setKeywords($article_info['meta_keyword']);
 			$this->document->addLink($this->url->link('blog/article', 'article_id=' . $this->request->get['article_id']), 'canonical');
-
 			$data['heading_title'] = $article_info['name'];
             $data['date'] = date($this->language->get('date_format_short'), strtotime($article_info['date_modified']));
 			$data['article_id'] = (int)$this->request->get['article_id'];

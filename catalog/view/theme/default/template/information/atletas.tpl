@@ -1,15 +1,30 @@
-<?php echo $header; ?>
-<div class="container">
-  <ul class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
-    <?php } ?>
-  </ul>
-  <div class="row">
-    <div id="content" class=" paddingAcountTittle">
-      <h2><?php echo $name; ?></h2>
 
-      <div class="container">
+<?php echo $header; ?>
+
+<div class="pagehero">
+	<div class="hero-bg js-doc-nav-wrapper" style="background-image: url('catalog/view/theme/default/images/atletas.jpg')" >
+	</div>
+
+	<div class="copy">
+		<p class="distance-title">
+			GU ENERGY
+		</p>
+
+		<h1 itemprop="headline" class="entry-title">
+			ATLETAS
+		</h1>
+
+		<p itemprop="sub-title" class="sub-title">
+			Nuestros atletas....
+		</p>
+
+	</div>
+
+</div>
+<hr>
+
+
+<div class="container">
         <div class="row">
           <div class="col-sm-12"> 
                 
@@ -35,7 +50,7 @@
                         </div>-->
                         <!--<?php echo $article['meta_data']; ?>-->
                         <a class="btn -clear" href="<?php echo $article['href']; ?>" >
-                          Aprender más 
+                          Aprender más
                           <i class="tmbricons tmbricons-arrow-right"></i>
                         </a>
                     </div>
@@ -58,6 +73,6 @@
       <p><?php echo $text_empty; ?></p>
       <?php } ?>
       </div>
-    </div>
-</div>
+
+
 <?php echo $footer; ?>

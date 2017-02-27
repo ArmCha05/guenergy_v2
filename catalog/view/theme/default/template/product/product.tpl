@@ -3,7 +3,7 @@
 
 
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
-<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+
 
 <link href="//cdn.shopify.com/s/files/1/1126/5680/t/5/assets/theme.scss.css?15371127818496078502" rel="stylesheet" type="text/css" media="all" />
 
@@ -213,7 +213,7 @@
           &nbsp;
 
           <span class="cart">
-            <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="btn btn--full product-form__cart-submit" data-toggle="modal" data-target="#keepBuying"/>
+            <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="btn btn--full product-form__cart-submit" data-target="#keepBuying" data-toggle="modal"/>
           </span>
         </div>
       </div>       
@@ -309,6 +309,9 @@
 
 <script type="text/javascript"><!--
 $(document).ready(function() {
+
+  
+
   $('.colorbox').colorbox({
     overlayClose: true,
     opacity: 0.5,
@@ -343,6 +346,7 @@ $('#button-cart').bind('click', function() {
     data: $('.product-info input[type=\'text\'], .product-info input[type=\'hidden\'], .product-info input[type=\'radio\']:checked, .product-info input[type=\'checkbox\']:checked, .product-info select, .product-info textarea'),
     dataType: 'json',
     success: function(json) {
+      
       $('.success, .warning, .attention, information, .error').remove();
       
       if (json['error']) {

@@ -1,5 +1,5 @@
 <?php
-class ControllerBlogBlog extends Controller {
+class ControllerInformationAtletas extends Controller {
 	public function index() {
 
 		$this->load->model('blog/article');
@@ -193,7 +193,7 @@ class ControllerBlogBlog extends Controller {
 			$data['footer'] = $this->load->controller('common/footer');
 			$data['header'] = $this->load->controller('common/header');
 			
-			$this->response->setOutput($this->load->view('blog/blog', $data));
+			$this->response->setOutput($this->load->view('information/atletas', $data));
 			
 		} else {
 			
@@ -242,5 +242,4 @@ class ControllerBlogBlog extends Controller {
 			$this->response->setOutput($this->load->view('error/not_found', $data));
 		}
 	}
-
 }

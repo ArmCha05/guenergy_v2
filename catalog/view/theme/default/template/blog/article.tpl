@@ -12,7 +12,6 @@
   </div>
 
 </div>
-
 <main id="main" class="site-main" role="main">
   <div class="container">
     <div class="row">
