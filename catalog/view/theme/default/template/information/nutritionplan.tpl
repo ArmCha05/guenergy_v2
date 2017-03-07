@@ -135,7 +135,7 @@
 							</a>
 
 							<div class="post-copy-wraper">
-								<a href="https://guenergy.com/nutrition-plan/50krun/">
+								<a href="index.php?route=information/50krunning">
 									<h4 class="post-title">50K Run</h4>
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
@@ -143,7 +143,7 @@
 
 							</div>
 
-							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/50krun/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
+							<a class="btn -clear" href="index.php?route=information/50krunning">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
 
 
 						</div><!-- / post item -->
@@ -154,13 +154,13 @@
 								</div>
 							</a>
 							<div class="post-copy-wraper">
-								<a href="https://guenergy.com/nutrition-plan/50mirun/">
+								<a href="index.php?route=information/50milerun">
 									<h4 class="post-title">50 Mile Run</h4>
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
 								<p class="post-copy">Running 50 miles takes a long time, which is why it’s important ...</p>
 							</div>
-							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/50milerun/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>						
+							<a class="btn -clear" href="index.php?route=information/50milerun">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>						
 						</div>
 
 
@@ -171,13 +171,13 @@
 								</div>
 							</a>
 							<div class="post-copy-wraper">
-								<a href="https://guenergy.com/nutrition-plan/halfmarathon/">
+								<a href="index.php?route=information/halfmarathon">
 									<h4 class="post-title">Half Marathon</h4>
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
 								<p class="post-copy">Planning out your nutrition for a half-marathon is particularly important if you ...</p>
 							</div>
-							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/halfmarathon/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
+							<a class="btn -clear" href="index.php?route=information/halfmarathon">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
 						</div>
 
 
@@ -188,13 +188,13 @@
 								</div>
 							</a>
 							<div class="post-copy-wraper">
-								<a href="https://guenergy.com/nutrition-plan/marathon/">
+								<a href="index.php?route=information/marathon">
 									<h4 class="post-title">marathon</h4>
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
 								<p class="post-copy">“Pace yourself with your nutrition!” It’s important to plan out when/...</p>
 							</div>
-							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/marathon/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
+							<a class="btn -clear" href="index.php?route=information/marathon">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
 					</div>
 
 
