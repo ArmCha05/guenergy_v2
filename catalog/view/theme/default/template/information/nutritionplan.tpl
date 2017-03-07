@@ -113,7 +113,7 @@
 							</a>
 
 							<div class="post-copy-wraper">
-								<a href="https://guenergy.com/nutrition-plan/10k/">
+								<a href="index.php?route=information/10krunning">
 									<h4 class="post-title">10K Run</h4>
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
@@ -147,9 +147,58 @@
 
 
 						</div><!-- / post item -->
-					
-	
+
+						<div class="post-item -nutrition-plan mb2 filter-event-plan filter-running active active-event active-sport" style="">
+							<a href="https://guenergy.com/nutrition-plan/50milerun/">
+								<div class="plan-img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/2016-Broken-Arrow-Sky-Race-photo-of-Max-King-for-Gu-ad-Myke-Hermsmeyer-1-of-1-1024x671.jpg');">
+								</div>
+							</a>
+							<div class="post-copy-wraper">
+								<a href="https://guenergy.com/nutrition-plan/50mirun/">
+									<h4 class="post-title">50 Mile Run</h4>
+								</a>
+								<p class="post-meta">Event Plan, Running</p>
+								<p class="post-copy">Running 50 miles takes a long time, which is why it’s important ...</p>
+							</div>
+							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/50milerun/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>						
+						</div>
+
+
+
+						<div class="post-item -nutrition-plan mb2 filter-event-plan filter-running active active-event active-sport" style="">
+							<a href="https://guenergy.com/nutrition-plan/halfmarathon/">
+								<div class="plan-img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/BigSur4-1024x705.jpg');">
+								</div>
+							</a>
+							<div class="post-copy-wraper">
+								<a href="https://guenergy.com/nutrition-plan/halfmarathon/">
+									<h4 class="post-title">Half Marathon</h4>
+								</a>
+								<p class="post-meta">Event Plan, Running</p>
+								<p class="post-copy">Planning out your nutrition for a half-marathon is particularly important if you ...</p>
+							</div>
+							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/halfmarathon/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
+						</div>
+
+
+
+						<div class="post-item -nutrition-plan mb2 filter-event-plan filter-running active active-event active-sport" style="">
+							<a href="https://guenergy.com/nutrition-plan/marathon/">
+								<div class="plan-img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/DSC_0769-e1481670086850-1024x579.jpg');">
+								</div>
+							</a>
+							<div class="post-copy-wraper">
+								<a href="https://guenergy.com/nutrition-plan/marathon/">
+									<h4 class="post-title">marathon</h4>
+								</a>
+								<p class="post-meta">Event Plan, Running</p>
+								<p class="post-copy">“Pace yourself with your nutrition!” It’s important to plan out when/...</p>
+							</div>
+							<a class="btn -clear" href="https://guenergy.com/nutrition-plan/marathon/">Learn More <i class="tmbricons tmbricons-arrow-right"></i></a>
 					</div>
+
+
+
 				</div>			
 
 			</div><!-- /col -->

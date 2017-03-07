@@ -227,7 +227,7 @@
                     <div class="image-nav-wrapper">
                         <ul class="nav-list">
                             <li>
-                                <a href="">
+                                <a href="index.php?route=information/ciclismo">
                                     <div class="img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/themes/guenergy-17/public/images/cycling-nav.jpg');"></div>
                                     <h5 class="title">Ciclismo</h5>
                                 </a>
@@ -238,7 +238,7 @@
                     <div class="image-nav-wrapper">
                         <ul class="nav-list">
                             <li>
-                                <a href="/nutrition-plan/activity/triathalon/">
+                                <a href="index.php?route=information/triatlon">
                                     <div class="img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/themes/guenergy-17/public/images/triathlon-nav.jpg');"></div>
                                     <h5 class="title">Triatlón</h5>
                                 </a>
@@ -249,7 +249,7 @@
                     <div class="image-nav-wrapper">
                         <ul class="nav-list">
                             <li>
-                                <a href="/nutrition-plan/activity/mtb/">
+                                <a href="index.php?route=information/mtb">
                                     <div class="img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/themes/guenergy-17/public/images/nav-4.jpg');"></div>
                                     <h5 class="title">MTB</h5>
                                 </a>
@@ -260,7 +260,7 @@
                     <div class="image-nav-wrapper">
                         <ul class="nav-list">
                             <li>
-                                <a href="/nutrition-plan/activity/intensity/">
+                                <a href="index.php?route=information/basic">
                                     <div class="img-wrap" style="background-image: url('https://1iy0q03l0o0o497fr42dtsex-wpengine.netdna-ssl.com/wp-content/themes/guenergy-17/public/images/basic-nav.jpg');"></div>
                                     <h5 class="title">Basic</h5>
                                 </a>
