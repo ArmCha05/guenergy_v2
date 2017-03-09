@@ -114,7 +114,7 @@
 
 							<div class="post-copy-wraper">
 								<a href="index.php?route=information/10krunning">
-									<h4 class="post-title">10K Run</h4>
+									<h4 class="post-title">10K Run</h4>s
 								</a>
 								<p class="post-meta">Event Plan, Running</p>
 								<p class="post-copy">Because 10ks are shorter and typically run at a faster pace, it’...</p>
