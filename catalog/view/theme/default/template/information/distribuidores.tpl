@@ -75,7 +75,7 @@
 
 	var sucursales =
 	[
-		{"Nombre":"Gu Energy Guadalajara", "Direccion": "Patria", "Telefono": "324234", "Website": "patria@asjdfkl", "Latitud":20.653995,"Longitud":-103.366288,"Linea":"Si"},
+		
 		{"Nombre":"Vertimania Sucursal Guadalajara", "Direccion": "Av. de la Paz 2350, Lafayette, 44160", "Telefono": "33 36165371", "Website": "http://www.vertimania.com/shop/?target=contacto", "Latitud":20.672427, "Longitud":-103.375085,"Linea":"Toda"},
 		{"Nombre":"Vertimania Sucursal Mixcoac", "Direccion": "Patriotismo # 724. Entre Holbein y Rubens Col. San Juan, México D.F. C.P 03730", "Telefono": "( 55 ) 56 15 52 29 / ( 55 ) 56 15 52 30" , "Website": "", 
 		"Latitud":19.379127,"Longitud":-99.185722,"Linea":""},
